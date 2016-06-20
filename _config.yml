@@ -1,8 +1,8 @@
 # Site settings
 title:       Ryan
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+email:       rgholben@gmail.com
+author:      Ryan Holben
+description: "The professional & personal webpage for Ryan Holben."
 baseurl:     ""
 url:         "https://Ryan-Holben.github.io"
 date_format: "%b %-d, %Y"
@@ -17,7 +17,7 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
@@ -34,17 +34,17 @@ disqus_shortname:
 # (leave blank to disable Facebook Comments, otherwise set it to true)
 facebook_comments:
 facebook_appid:
-facebook_comments_number: 10
+facebook_comments_number: 0
 
 # Social icons
-github_username:
+github_username: "Ryan-Holben"
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: "ryan-holben-811a5a58"
 angellist_username:
 medium_id:
 bitcoin_url:
