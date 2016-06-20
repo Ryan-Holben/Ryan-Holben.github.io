@@ -18,6 +18,12 @@
   margin-top: $space-2;
 }
 
+.navbar-contact {
+  a:hover + i {
+    opacity: 0.5;
+  }
+}
+
 .site-header nav a {
   color: #666;
 }
