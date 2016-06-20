@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign posts_count = (paginator.posts | size) %}
 
-<div class="home">
+<!-- <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}
@@ -25,4 +25,6 @@ layout: default
   {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
   {% endif %}
-</div>
+</div> -->
+
+{% include about.md %}
