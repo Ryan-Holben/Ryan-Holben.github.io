@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-tags: about
+tags: navbar
 ---
 
 <img src="/assets/img/portrait.jpg" style="float:right; padding: 0px 0px 10px 20px;">

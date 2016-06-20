@@ -1,10 +1,10 @@
 {% for page in site.pages %}
-    {% if page.tags contains "about" %}
+    {% if page.tags contains "navbar" %}
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
-{% for page in site.pages %}
+<!-- {% for page in site.pages %}
     {% if page.tags contains "contact" %}
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
-{% endfor %}
+{% endfor %} -->
