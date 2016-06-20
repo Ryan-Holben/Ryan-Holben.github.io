@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: center
 title: Coding
 permalink: /coding/
 tags: navbar
