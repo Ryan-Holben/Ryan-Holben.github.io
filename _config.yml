@@ -4,7 +4,7 @@ email:       rgholben@gmail.com
 author:      Ryan Holben
 description: "The professional & personal webpage for Ryan Holben."
 baseurl:     ""
-url:         "https://Ryan-Holben.github.io"
+url:         "https://Ryan-Holben.github.io/about/"
 date_format: "%b %-d, %Y"
 
 # Google services
