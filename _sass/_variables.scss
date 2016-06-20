@@ -1,5 +1,5 @@
 // Typography
-$base-font-size: 14px !default;
+$base-font-size: 6px !default;
 $bold-font-weight: bold !default;
 $font-family: 'Merriweather', 'PT Serif', Georgia, 'Times New Roman', serif !default;
 $line-height: 1.5 !default;
@@ -7,7 +7,7 @@ $heading-font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif !default;
 $heading-font-weight: 900 !default;
 $heading-line-height: 1.25 !default;
 $monospace-font-family: 'Source Code Pro', Consolas, monospace !default;
-$h1: 2.5rem !default;
+$h1: 1.5rem !default;
 $h2: 1.5rem !default;
 $h3: 1.25rem !default;
 $h4: 1rem !default;
@@ -53,8 +53,8 @@ $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
 
 // Links
-$link-color: $green;
-$link-hover-color: darken($dark-green, 40%);
+$link-color: $purple;
+$link-hover-color: $mid-gray//darken($dark-green, 40%);
 
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';
