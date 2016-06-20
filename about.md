@@ -5,7 +5,7 @@ permalink: /about/
 tags: about
 ---
 
-<img align="right" src="/assets/img/me.jpg">
+<src="/assets/img/me.jpg" style="float:right; width: 40%; height: 40%">
 
 My name is Ryan Holben, and I like to code.  Actually, I like a lot of things.  Neat, right?
 
