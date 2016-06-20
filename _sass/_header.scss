@@ -18,11 +18,15 @@
   margin-top: $space-2;
 }
 
-.navbar-contact {
-  a:hover + i {
-    opacity: 0.5;
-    color: $red;
-  }
+// .navbar-contact {
+//   a:hover + i {
+//     opacity: 0.5;
+//     color: $red;
+//   }
+// }
+
+#navbarcontact:hover + i {
+  color: $red;
 }
 
 .site-header nav a {
