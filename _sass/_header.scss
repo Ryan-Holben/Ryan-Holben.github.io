@@ -29,21 +29,21 @@
   color: #666;
 }
 
-.site-header nav a:hover,
-.site-header nav a:focus,
-.site-header nav a:active {
-  color: #444;
-  opacity: 1;
-  border-bottom: 2px solid #444;
-  padding-bottom: 4.5px;
-}
-
 #navbarcontact:hover i,
 #navbarcontact:focus i,
 #navbarcontact:active i {
   color: $yellow;
   text-decoration: none;
-  border: none !important;
+  border-bottom: none !important;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus,
+.site-header nav a:active {
+  color: #444;
+  opacity: 1;
+  border-bottom: 2px solid #444 !default;
+  padding-bottom: 4.5px;
 }
 
 .navlink {
