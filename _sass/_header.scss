@@ -29,9 +29,7 @@
   color: #666;
 }
 
-#navbarcontact:hover i,
-#navbarcontact:focus i,
-#navbarcontact:active i {
+#navbarcontact:hover i {
   color: $blue;
   text-decoration: none;
   border-bottom: none !important;
