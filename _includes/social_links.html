@@ -1,14 +1,14 @@
 <div class="social-icons">
   <div class="social-icons-left">
     {% if site.github_username %}
-      <div class ="social-github"><a class="fa fa-github" href="https://github.com/{{ site.github_username }}" title="GitHub"></a></div>
+      <span class ="social-github"><a class="fa fa-github" href="https://github.com/{{ site.github_username }}" title="GitHub"></a></span>
     {% endif %}
     <!--<a class="fa fa-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}"></a>-->
     {% if site.twitter_username %}
       <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"></a>
     {% endif %}
     {% if site.email %}
-      <div class="social-email"><a class="fa fa-envelope" href="mailto:{{ site.email }}" title="Email"></a></div>
+      <span class="social-email"><a class="fa fa-envelope" href="mailto:{{ site.email }}" title="Email"></a></span>
     {% endif %}
     {% if site.linkedin_username %}
       <a class="fa fa-linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title=LinkedIn></a>

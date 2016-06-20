@@ -17,10 +17,14 @@
 
 .social-icons a.fa:hover {
   opacity: 1;
-  color: $red;
+  // color: $red;
 }
 
 .social-icons iframe[title=Flattr] {
   position: relative;
   top: 0.1em;
+}
+
+.social-github a.fa:hover {
+  color:$blue;
 }
