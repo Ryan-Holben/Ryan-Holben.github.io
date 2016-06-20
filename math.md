@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mathematics
-permalink: /research/
+permalink: /math/
 tags: navbar
 ---
 
