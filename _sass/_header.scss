@@ -38,8 +38,10 @@
   padding-bottom: 4.5px;
 }
 
-#navbarcontact:hover i {
-  color: $red;
+#navbarcontact:hover i,
+#navbarcontact:focus i,
+#navbarcontact:active i {
+  color: $yellow;
   text-decoration: none;
   border: none !important;
 }
