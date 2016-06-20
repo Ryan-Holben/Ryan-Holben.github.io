@@ -5,8 +5,7 @@ permalink: /about/
 tags: navbar
 ---
 
-<img src="/assets/img/portrait.jpg" style="float:right; width:90%; height:90%; padding: 0px 0px 10px 20px;" title="Exploring Oslo, Norway!">
-[<img src="/assets/img/post_slope.png" style="float:right; width: 45%; height: 45%">](/assets/img/post_slope.png)
+<img src="/assets/img/portrait.jpg" style="float:right; width:30%; height:30%; padding: 0px 0px 10px 20px;" title="Exploring Oslo, Norway!">
 Hello!
 
 My name is Ryan Holben, and I like to solve problems.
