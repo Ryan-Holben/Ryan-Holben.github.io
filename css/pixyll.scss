@@ -33,3 +33,9 @@
 @import 'gists';
 @import 'measure';
 @import 'pagination';
+
+@media (max-width: 121px) {
+img {
+visibility:hidden;
+}
+}
