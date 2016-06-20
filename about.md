@@ -5,7 +5,7 @@ permalink: /about/
 tags: about
 ---
 
-<img src="/assets/img/portrait.jpg" style="float:right; width:80%; height:80%; padding: 0px 0px 10px 20px;">
+<img src="/assets/img/portrait.jpg" style="float:right; width: 80%; height: 80%; padding: 0px 0px 10px 20px;">
 
 My name is Ryan Holben, and I like to solve problems.
 
