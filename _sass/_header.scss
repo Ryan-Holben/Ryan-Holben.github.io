@@ -69,3 +69,10 @@
 .site-header .site-nav {
   text-align: center;
 }
+
+header {
+  background-color: $footer-bg-color;
+  border-bottom: $footer-border-top;
+  color: $footer-color;
+  padding: $footer-padding;
+}
