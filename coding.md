@@ -4,6 +4,8 @@ title: Coding
 permalink: /coding/
 tags: navbar
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 [<img src="/assets/img/post_slope.png" style="float:right; width: 45%; height: 45%">](/assets/img/post_slope.png)
 I enjoy coding as a creative outlet.  It allows me to nurture a wide variety of interests in the applied spectrum.  I have most recently been using Python in the following pursuits:
 
