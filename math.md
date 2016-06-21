@@ -4,6 +4,9 @@ title: Mathematics
 permalink: /math/
 tags: navbar
 ---
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 $$a^2 + b^2 = c^2$$
 
 Hello world: \\(\int^{x}f(t)dt\\) isn't that neat?
