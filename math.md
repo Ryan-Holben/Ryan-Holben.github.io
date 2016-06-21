@@ -15,13 +15,13 @@ I was advised by [Dr. Martin Zeman](http://math.uci.edu/~mzeman) on my thesis "[
 * [Square at Singular Cardinals](http://www.math.uci.edu/~mzeman/lsc-2013.html) ([pdf](/assets/pdf/2-17-13 LSC Talk.pdf))
     * <cite>Feb. 2013, UC Irvine, Logic in Southern California talk</cite>
 * [A Friendly Introduction to Large Cardinals and Consistency Strength](http://math.uci.edu/~mgsc/talk.php?year=2013&number=2)
-    * Feb. 2013, UC Irvine, Math Graduate Student Colloquium series
+    * <cite>Feb. 2013, UC Irvine, Math Graduate Student Colloquium series</cite>
 * [Combinatorics at \\(\aleph_{\omega+1}\\) in Prikry-type extensions](http://jointmathematicsmeetings.org/amsmtgs/2141_abstracts/1086-03-2225.pdf) ([pdf](/assets/pdf/1-8-13 AMS talk.pdf))
-    * Jan. 2013, Joint Mathematics Meeting, Contributed talk
+    * <cite>Jan. 2013, Joint Mathematics Meeting, Contributed talk</cite>
 * [Silver’s model for failure of SCH](http://math.uci.edu/node/22670)
-    * Oct. 2012, UC Irvine, Seminar
+    * <cite>Oct. 2012, UC Irvine, Seminar</cite>
 * [Kappa-Suslin sets, semiscales and scales I](http://math.uci.edu/node/21651) and [II](http://math.uci.edu/node/21661)
-    * Apr. 2010, UC Irvine, Seminars
+    * <cite>Apr. 2010, UC Irvine, Seminars</cite>
 
 ## Conferences
 
