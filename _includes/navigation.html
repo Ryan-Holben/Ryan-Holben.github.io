@@ -6,7 +6,7 @@
 {% for url in url_list %}
   {% if page.url == url %}
     <div style="position: relative; width: 0; height: 0">
-      <img src="/assets/img/int.png" style="position:absolute; top:5px; right:-6px; width:15px; height:27px;">
+      <img src="/assets/img/int.png" style="position:absolute; top:5px; right:6px; width:15px; height:27px;">
     </div>
   {% endif %}
   <span class="navlink-clean"> <a href = "{{ url }}">{{ page_titles[forloop.index0] }}</a> </span>
