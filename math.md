@@ -13,9 +13,7 @@ I was advised by [Dr. Martin Zeman](http://math.uci.edu/~mzeman) on my thesis "[
 ## Talks
 
 * [Square at Singular Cardinals](http://www.math.uci.edu/~mzeman/lsc-2013.html) ([pdf](/assets/pdf/2-17-13 LSC Talk.pdf))
-
-    <cite>Feb. 2013, UC Irvine, Logic in Southern California talk</cite>
-    
+    * <cite>Feb. 2013, UC Irvine, Logic in Southern California talk</cite>
 * [A Friendly Introduction to Large Cardinals and Consistency Strength](http://math.uci.edu/~mgsc/talk.php?year=2013&number=2)
     * Feb. 2013, UC Irvine, Math Graduate Student Colloquium series
 * [Combinatorics at \\(\aleph_{\omega+1}\\) in Prikry-type extensions](http://jointmathematicsmeetings.org/amsmtgs/2141_abstracts/1086-03-2225.pdf) ([pdf](/assets/pdf/1-8-13 AMS talk.pdf))
