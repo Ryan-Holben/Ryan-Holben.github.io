@@ -4,7 +4,7 @@ title: Mathematics
 permalink: /math/
 tags: navbar
 ---
-I am currently a [Visiting Assistant Professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx) of mathematics at [Furman University](http://www.furman.edu).  I received my Ph.D. from UC Irvine in 2013.  My bachelors degree is in math and physics, which I obtained at [Colby College](http://www.colby.edu) in 2007.
+I am currently a [Visiting Assistant Professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx) of mathematics at [Furman University](http://www.furman.edu).  I received my Ph.D. from [UC Irvine](http://math.uci.edu) in 2013.  My bachelors degree is in math and physics, which I obtained at [Colby College](http://www.colby.edu) in 2007.
 
 My mathematical research is in the field of set theory.  My research primarily investigates infinite combinatorics at small singular cardinals, large cardinals, and the consistency results which relate these subjects.  A primary tool used in this work is [forcing](https://en.wikipedia.org/wiki/Forcing_(mathematics)), a technique for constructing outer models of the axioms of mathematics.  Recently I have also looked at generalizations of [cardinal characteristics](https://en.wikipedia.org/wiki/Cardinal_characteristic_of_the_continuum) to partially-ordered sets.
 
