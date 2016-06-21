@@ -10,9 +10,9 @@ Hello!
 
 My name is Ryan Holben, and I love solving problems.
 
-I am currently a [mathematics professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx).  I firmly believe in the beauty of math.
+I am a [math professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx).  I firmly believe in the beauty of mathematics.
 
-I also love to code.  It is both a tool and a medium by which I explore many [/codeing/](interests).
+I also love coding.  It is both a tool and a medium by which I explore many [interests](/coding/).
 
 To see my résumé, click the <span class ="social-resume"><a class="fa fa-file-pdf-o" href="/assets/pdf/Resume.pdf" title="Résumé"></a></span> icon above.
 
