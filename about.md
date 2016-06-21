@@ -10,12 +10,8 @@ Hello!
 
 My name is Ryan Holben, and I love solving problems.
 
-I am a [math professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx).  I firmly believe in the beauty of mathematics.
+I am a [math professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx).  I firmly believe in the beauty of mathematics,.
 
 I also love coding.  It is both a tool and a medium by which I explore many [interests](/coding/).
 
 To see my résumé, click the <span class ="social-resume"><a class="fa fa-file-pdf-o" href="/assets/pdf/Resume.pdf" title="Résumé"></a></span> icon above.
-
-<!-- I am currently a [Visiting Assistant Professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx) of mathematics at [Furman University](http://www.furman.edu).  Prior to Furman, I taught at [UC Irvine](http://math.uci.edu), where I also got my Ph.D. in 2013.  My bachelors degree is in math and physics, which I obtained at [Colby College](http://www.colby.edu) in 2007.
-
-Coding is a huge part of what I do.    Check out the code section of my site to see some things that I've done. -->
