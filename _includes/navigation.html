@@ -5,11 +5,11 @@
 {% assign page_titles = "About Code Math Teaching" | split: ' ' %}
 {% for url in url_list %}
   {% if page.url == url %}
-    <\(\int\)
+    \(\int_{0}^{\infty}\)
   {% endif %}
   <span class="navlink-clean"> <a href = "{{ url }}">{{ page_titles[forloop.index0] }}</a> </span>
   {% if page.url == url %}
-    <\(dx\)
+    \(dx\)
   {% endif %}
 {% endfor %}
 <!-- <span class="navlink-clean"> <a href = "/about/">About</a> </span>
