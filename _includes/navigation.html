@@ -1,13 +1,21 @@
 <!-- Clean & minimal version -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-test
-{% if page.url == "/about/" %}
-  \(\int\)
-{% endif %}
-<span class="navlink-clean"> <a href = "/about/">About</a> </span>
+
+{% assign url_list = "/about/ /coding/ /math/ /teaching/" | split: ' ' %}
+{% assign page_titles = "About Code Math Teaching" | split: ' ' %}
+{% for url in url_list %}
+  {% if page.url == url %}
+    <\(\int\)
+  {% endif %}
+  <span class="navlink-clean"> <a href = "{{ url }}">{{ page_titles[forloop.index0] }}</a> </span>
+  {% if page.url == url %}
+    <\(dx\)
+  {% endif %}
+{% endfor %}
+<!-- <span class="navlink-clean"> <a href = "/about/">About</a> </span>
 <span class="navlink-clean"> <a href = "/coding/">Code</a> </span>
 <span class="navlink-clean"> <a href = "/math/">Math</a> </span>
-<span class="navlink-clean"> <a href = "/teaching/">Teaching</a>  </span>
+<span class="navlink-clean"> <a href = "/teaching/">Teaching</a>  </span> -->
 <a id="navbarcontact" href = "/contact/"><i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></a>
 
 <!-- Version with separator icons -->
