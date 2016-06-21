@@ -8,7 +8,7 @@ tags: navbar
 <img src="/assets/img/portrait.jpg" style="float:right; width:40%; height:40%; padding: 0px 0px 10px 20px;" title="Exploring Oslo, Norway!">
 Hello!
 
-My name is Ryan Holben, and I like to solve problems.
+My name is Ryan Holben, and I like to solve problems.  Click the <span class ="social-resume"><a class="fa fa-file-pdf-o" href="/assets/pdf/Resume.pdf" title="Résumé"></a></span> icon above to learn more.
 
 I am currently a [Visiting Assistant Professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx) of mathematics at [Furman University](http://www.furman.edu).  Prior to Furman, I taught at [UC Irvine](http://math.uci.edu), where I also got my Ph.D. in 2013.  My bachelors degree is in math and physics, which I obtained at [Colby College](http://www.colby.edu) in 2007.
 
