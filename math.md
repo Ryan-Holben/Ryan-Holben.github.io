@@ -4,6 +4,9 @@ title: Mathematics
 permalink: /math/
 tags: navbar
 ---
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 My mathematical research is in the field of set theory.  My research primarily investigates infinite combinatorics at small singular cardinals, large cardinals, and the consistency results which relate these subjects.  A primary tool used in this work is [forcing](https://en.wikipedia.org/wiki/Forcing_(mathematics)), a technique for constructing outer models of the axioms of mathematics.  Recently I have also looked at generalizations of [cardinal characteristics](https://en.wikipedia.org/wiki/Cardinal_characteristic_of_the_continuum) to partially-ordered sets.
 
