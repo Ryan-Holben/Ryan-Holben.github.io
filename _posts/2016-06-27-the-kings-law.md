@@ -2,7 +2,7 @@
 layout:     post
 title:      The King's Law
 date:       2016-06-27
-summary:    We use probability to predict of a law will successfully impact the balance of boys & girls born in a fictitious country.
+summary:    We use probability to predict whether a new law will successfully impact the balance of boys & girls born in a fictitious country.
 categories: math probability
 ---
 <center><img src="http://pzl.jp/en/uimg/1_f3c43373425d441d447efce148b4a193q.jpg?1467094317"></center>
