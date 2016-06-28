@@ -91,7 +91,7 @@ Let's calculate the number of boys we _expect_ to have per family, on average.  
 <div>$$ E[B]=b_1 p_1 + b_2 p_2 + b_3 p_3 + ... $$</div>
 <div>$$ =1 \cdot \frac{1}{2} + 1\cdot \frac{1}{4} + 1\cdot \frac{1}{8} + ... $$</div>
 <div>$$ =\sum_{i = 0}^{\infty}\frac{1}{2^i} $$</div>
-<div>$$ =\sum_{i = 0}^{\infty}\lparen\frac{1}{2}\rparen^i $$</div>
+<div>$$ =\sum_{i = 0}^{\infty}\left\frac{1}{2}\right^i $$</div>
 </div>
 
 You may have seen this before.  This is a [geometric series](https://en.wikipedia.org/wiki/Geometric_series) with ratio of \\(r=\frac{1}{2}\\), and it has a simple formula.
@@ -116,5 +116,13 @@ I saved this calculation for last, both because it's more interesting and becaus
 Now this sum is a bit trickier.  It's probably not one you learned how to compute in your calculus class, although you may know how to test to see if it converges (it does).  So I'll give you the answer here, it turns out that:
 
 <div>
-<div>$$ =\sum_{i = 0}^{\infty}\frac{i}{2^{i+1}} $$</div>
+<div>$$ E[G] = \sum_{i = 0}^{\infty}\frac{i}{2^{i+1}} = 1$$</div>
 </div>
+
+So the expected number of boys and the expected number of girls are both equal to one!
+
+# The answer
+
+**The king's law will have, on average, no effect on the ratio of girls to boys that are born into his kingdom.**
+
+Wait, what?  Really?  Now this seems pretty counter-intuitive, doesn't it?  Most families will have many girls and only one boy, right?  Except "most" is incorrect here.  Because 50% of families have a boy and no girls at all, giving the boys an edge.
