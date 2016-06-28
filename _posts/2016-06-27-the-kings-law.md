@@ -11,7 +11,7 @@ This is a neat little problem I ran across today [here](http://pzl.jp/en/q1).  T
 <hr>
 Deciding that his kingdom needed more women, the king proclaimed a new law:
 
-<code style="word-break:break-all;"> "Henceforth, upon the birth of a son a family shall bear children no more!" </code>
+<code> "Henceforth, upon the birth of a son a family shall bear children no more!" </code>
 
 His thought was, of course, that a family could have as many girls as they wanted before having to call it quits, which should raise the ratio of girls.
 
