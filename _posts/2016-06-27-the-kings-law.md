@@ -89,6 +89,8 @@ Let's calculate the number of boys we _expect_ to have per family, on average.  
 
 <div align="center">
 <div>$$E[B]=b_1 p_1 + b_2 p_2 + b_3 p_3 + ...$$</div>
+<div>$$E[B]=1 \cdot \frac{1}{2} + \cdot \frac{1}{4} + \cdot \frac{1}{8} + ...$$</div>
+<div>$$E[B]=\sum_{i = 0}^{\infty}\frac{1}{2^i}$$</div>
 </div>
 
 ### Expected value for girls
