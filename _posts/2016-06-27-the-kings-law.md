@@ -6,16 +6,17 @@ summary:    We use probability to predict of a law will successfully impact the 
 categories: math probability
 ---
 <center><img src="http://pzl.jp/en/uimg/1_f3c43373425d441d447efce148b4a193q.jpg?1467094317"></center>
+
 This is a neat little problem I ran across today [here](http://pzl.jp/en/q1).  The scenario goes like so:
+<hr>
+Deciding that his kingdom needed more women, the king proclaimed a new law:
 
-> Deciding that his kingdom needed more women, the king proclaimed a new law:
+> "Henceforth, upon the birth of a son a family shall bear children no more!"
 
-> > "Henceforth, upon the birth of a son a family shall bear children no more!"
+His thought was, of course, that a family could have as many girls as they wanted before having to call it quits, which should raise the ratio of girls.
 
-> His thought was, of course, that a family could have as many girls as they wanted before having to call it quits, which should raise the ratio of girls.
-
-> Did his plan work?
-
+Did his plan work?
+<hr>
 [If you want to skip to the solution, click here](#solution). I'm going to take it slow so that we can talk about problem solving methods.
 
 ## Problem solving
