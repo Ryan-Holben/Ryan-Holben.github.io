@@ -10,11 +10,9 @@ categories: math probability
 This is a neat little problem I ran across today [here](http://pzl.jp/en/q1).  The scenario goes like so:
 <hr>
 Deciding that his kingdom needed more women, the king proclaimed a new law:
-<div style="word-break:break-all;">
 
-    "Henceforth, upon the birth of a son a family shall bear children no more!"
+<code style="word-break:break-all;"> "Henceforth, upon the birth of a son a family shall bear children no more!" </code>
 
-</div>
 His thought was, of course, that a family could have as many girls as they wanted before having to call it quits, which should raise the ratio of girls.
 
 Did his plan work?
