@@ -17,7 +17,7 @@ His thought was, of course, that a family could have as many girls as they wante
 
 Did his plan work?
 <hr>
-[If you want to skip to the solution, click here](#solution). I'm going to take it slow so that we can talk about problem solving methods.
+[If you want to skip to the solution, click here](#solution), and if you want to skip to the final answer, click [here](#answer). I'm going to take it slow so that we can talk about problem solving methods.
 
 ## Problem solving
 My students may or may not realize it, but I'm always secretly trying to teach them problem solving.  Sure, they may be trying to maximize the area of a field using derivatives, or solve some other contrived problem, but I don't really care about that.  What they really should be learning is a way of thinking, an approach that will serve them in all sorts of different settings.
@@ -120,7 +120,7 @@ Now this sum is a bit trickier.  It's probably not one you learned how to comput
 
 So the expected number of boys and the expected number of girls are both equal to one!
 
-# The answer
+# <a name="answer"></a> The answer
 
 Drum roll...
 
