@@ -26,7 +26,7 @@ So, let's solve this thing.
 
 Before solving a problem, especially one that has a "yes" or "no" answer, it's great to try and guess what the answer should be.  That is, let's get an intuition.  Do we think the king's plan will work?
 
-Maybe.  At first pass, the king's logic seems sensible, at least.  Every family has at most 1 boy, but there's no upper limit to the number of girls (For example, a family could have 3 girls and then a boy).  But we should always be skeptical&mdash; you don't think the problem is that straightforward, do you?
+Maybe.  At first pass, the king's logic seems sensible, at least.  Every family has at most 1 boy, but there's no upper limit to the number of girls (For example, a family could have 3 girls and then a boy).  But we should always be skeptical &mdash; you didn't think the problem is that straightforward, did you?
 
 ### Assumptions
 In any problem, we make assumptions.  A key to good problem solving is to have the self-awareness to realize what assumptions we've already made (probably without realizing it), and to evaluate them.
@@ -53,8 +53,20 @@ At its heart, this is a probability question.  We're going to start out by drawi
 
 <center><img src="/assets/img/the-kings-law/probability_tree.jpg"></center>
 
-I've crudely sketched a probability tree here, with each possible branching having a \\(\frac{1}{2}\\) chance of occurring.
+I've crudely sketched a [probability tree](https://en.wikipedia.org/wiki/Tree_diagram_(probability_theory)) here, with each possible branching having a \\(\frac{1}{2}\\) chance of occurring.
 
 What can we do with this?  For one, we can find the probability of any possible outcome by tracing a path from the root of the tree on the left, to a terminal node, or "leaf" on the right.  As we do so, we'll multiply the probabilities that we go through (in this problem, they all happen to be \\(\frac{1}{2}\\).)  Here's a table of outcomes and their probabilities.  (Here \\(E\\) means an event consisting of a single outcome.)
 
 <center><img src="/assets/img/the-kings-law/first_table.jpg"></center>
+
+## Wait, what are we trying to solve for here?
+We're being asked, will the King's plan "raise the ratio of girls"?  Let's be precise about what that means to us &mdash; otherwise, our problem-solving efforts will lack direction!
+
+To give us something to work with, let's define some variables which count the number of girls and the number of boys.  These are known as [random variables](https://en.wikipedia.org/wiki/Random_variable).
+
+<div align="center">
+<div>\\(B(x)=\\) # boys</div>
+<div>\\(G(x)=\\) $ girls</div>
+</div>
+
+Let's expand that table of outcomes and probabilities to include the values that \\(B(x)\\) and \\(G(x)\\) can take on.  Note that we refer to these values with the symbols \\(b_i\\) and \\(g_i\\).
