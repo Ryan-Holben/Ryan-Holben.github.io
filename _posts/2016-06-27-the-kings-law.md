@@ -65,8 +65,8 @@ We're being asked, will the King's plan "raise the ratio of girls"?  Let's be pr
 To give us something to work with, let's define some variables which count the number of girls and the number of boys.  These are known as [random variables](https://en.wikipedia.org/wiki/Random_variable).
 
 <div align="center">
-<div>$$B(x)= \text{boys}$$</div>
-<div>$$G(x)= \text{girls}$$</div>
+<div>$$B(x)= \text{number of boys}$$</div>
+<div>$$G(x)= \text{number of girls}$$</div>
 </div>
 
 Let's expand that table of outcomes and probabilities to include the values that \\(B(x)\\) and \\(G(x)\\) can take on.  Note that we refer to these values with the symbols \\(b_i\\) and \\(g_i\\).
@@ -74,3 +74,6 @@ Let's expand that table of outcomes and probabilities to include the values that
 <center><img src="/assets/img/the-kings-law/second_table.jpg"></center>
 
 ## Expected value
+So we have some functions that tell us the number of boys and girls in various situations.  What we'd really like to know is, on average, are we going to end up with more boys or more girls?
+
+Why?  Well, we can't predict what a single family might do.  But, if we looked at a thousand families, or a million families, we can get a a pretty good idea of what's going on.  To use the technical term, we're looking at the [expected value](https://en.wikipedia.org/wiki/Expected_value) for our random variables \\(B(x)\\) and \\(G(x)\\).
