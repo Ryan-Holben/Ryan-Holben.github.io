@@ -46,7 +46,7 @@ Maybe some families only want 1 or 2 children.  Or no children at all!  However 
 
 In fact, we could really go down some rabbit holes here.  Do all families consist of one mother and one father?  What will the law say if a male child dies?  In calculating birth rates, should we be comparing to the previous generation?
 
-It seems clear that we need to keep this problem grounded if we are ever going to have a hope at solving it.  So we will assume that, yes, all couples produce babies until a boy is born, and we are then answering the question of if this leads to a higher birthrate in girls.
+It seems clear that we need to keep this problem grounded if we are ever going to have a hope at solving it.  So we will assume that, yes, all couples produce babies until a boy is born, and we are then answering the question of if this leads to a higher birth rate in girls.
 
 # <a name="solution"></a> Solution
 At its heart, this is a probability question.  We're going to start out by drawing a probability tree.  It's a good way to visualize what's going on, and it might give us hints as to where to go from there.
@@ -131,7 +131,7 @@ Wait, what?  Really?  Now this seems pretty counter-intuitive, doesn't it?  Most
 Except "most" is incorrect here, because 50% of families have a boy and no girls at all, giving the boys an edge on the king's program.
 
 # Futher questions
-It's always a great idea to think about how you can expand upon a problem once you've solved the core question.  Let's revisit our question of what happens if the male and female birthrates are different.  For this discussion we'll speed things up, since we covered the basics in a fair amount of detail already.
+It's always a great idea to think about how you can expand upon a problem once you've solved the core question.  Let's revisit our question of what happens if the male and female birth rates are different.  For this discussion we'll speed things up, since we covered the basics in a fair amount of detail already.
 
 Let \\(p\\) be the probability that a girl will be born, and \\(1-p\\) be the probability that a boy is born.  So for example, in our original problem, \\(p=0.5\\) and \\(1-p=0.5\\).
 
@@ -148,5 +148,8 @@ and
 </div>
 
 Again, if \\(p=0.5\\) these equations reduce to the values we found before.
+
+Using these formulas, we can calculate the percentage of the new generation that will be female, given a female birth rate of \\(p\\).  The following graph shows this, with \\(p\\) on the horizontal axis, and the female fraction of the newborn population on the vertical axis.
+
 
 <center><img src="/assets/img/the-kings-law/graph.png"></center>
