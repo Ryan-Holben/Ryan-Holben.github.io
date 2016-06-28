@@ -36,6 +36,7 @@ Here's some that I made:
 2. Every family will continue producing babies until they get a boy.  (For example, no family will stop with, say, two girls.)
 
 Are these reasonable assumptions to make?
+
 #### Assumption #1: Boys and girls are born at the same rate
 Of course this isn't true in real life, but it's close.  A good strategy would be to make this **simplifying assumption** at the moment so that we can arrive at a solution.  After doing that, we'll **generalize** and allow for probabilities that aren't 50/50.
 
