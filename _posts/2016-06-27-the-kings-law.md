@@ -85,13 +85,24 @@ The formula for the expected value for a random variable \\(X\\) is
 </div>
 
 ### Expected value for boys
-Let's calculate the number of boys we _expect_ to have per family, on average.  Note that our equation won't have \\(n\\) terms, but rather an infinite number of terms.  We'll deal with that.
+Let's calculate the number of boys we _expect_ to have per family, on average.  Note that our equation won't have \\(n\\) terms, but rather an infinite number of terms.  That's actually not a problem, we simply follow the same pattern.
 
 <div align="center">
-<div>$$E[B]=b_1 p_1 + b_2 p_2 + b_3 p_3 + ...$$</div>
-<div>$$E[B]=1 \cdot \frac{1}{2} + \cdot \frac{1}{4} + \cdot \frac{1}{8} + ...$$</div>
-<div>$$E[B]=\sum_{i = 0}^{\infty}\frac{1}{2^i}$$</div>
+<div>$$ E[B]=b_1 p_1 + b_2 p_2 + b_3 p_3 + ... $$</div>
+<div>$$ =1 \cdot \frac{1}{2} + 1\cdot \frac{1}{4} + 1\cdot \frac{1}{8} + ... $$</div>
+<div>$$ =\sum_{i = 0}^{\infty}\frac{1}{2^i} $$</div>
+<div>$$ =\sum_{i = 0}^{\infty}\(\frac{1}{2}\)^i $$</div>
 </div>
+
+You may have seen this before.  This is a [geometric series](https://en.wikipedia.org/wiki/Geometric_series) with ratio of \\(r=\frac{1}{2}\\), and it has a simple formula.
+
+<div align="center">
+<div>$$ E[B]=\frac{\frac{1}{2}}{1-\frac{1}{2}} = \frac{\frac{1}{2}}{\frac{1}{2}}=1 $$</div>
+</div>
+
+Ta-dah!  We got an answer!  On average, we should expect every family to have 1 boy.
+
+...well, obviously.  That sure was a lot of math to show something we knew by definition: every family has exactly one boy, so of course on average there's 1 boy per family.  But this wasn't a waste of time, think of this as practice for our next section:
 
 ### Expected value for girls
 I saved this calculation for last, both because it's more interesting and because it gives the answer we're looking for!
