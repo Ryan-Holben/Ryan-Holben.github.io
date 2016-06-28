@@ -101,7 +101,7 @@ You may have seen this before.  This is a [geometric series](https://en.wikipedi
 
 Ta-dah!  We got an answer!  On average, we should expect every family to have 1 boy.
 
-...well, obviously.  That sure was a lot of math to show something we knew by definition: every family has exactly one boy, so of course on average there's 1 boy per family.  But this wasn't a waste of time, think of this as practice for our next section:
+...well, we knew that already: every family has exactly one boy, so of course on average there's 1 boy per family.  But this wasn't a waste of time, think of this as practice for our next section!
 
 ### Expected value for girls
 I saved this calculation for last, both because it's more interesting and because it gives the answer we're looking for!
@@ -128,4 +128,25 @@ Drum roll...
 
 Wait, what?  Really?  Now this seems pretty counter-intuitive, doesn't it?  Most families will have many girls and only one boy, right?
 
-Except "most" is incorrect here.  Because 50% of families have a boy and no girls at all, giving the boys an edge.
+Except "most" is incorrect here, because 50% of families have a boy and no girls at all, giving the boys an edge on the king's program.
+
+# Futher questions
+It's always a great idea to think about how you can expand upon a problem once you've solved the core question.  Let's revisit our question of what happens if the male and female birthrates are different.  For this discussion we'll speed things up, since we covered the basics in a fair amount of detail already.
+
+Let \\(p\\) be the probability that a girl will be born, and \\(1-p\\) be the probability that a boy is born.  So for example, in our original problem, \\(p=0.5\\) and \\(1-p=0.5\\).
+
+Then, using the same methods, you can show that
+
+<div align="center">
+<div>$$ E[B] =\sum_{i = 0}^{\infty}p^i = \frac{p}{1-p} $$</div>
+</div>
+
+and
+
+<div align="center">
+<div>$$ E[G] =p\sum_{i = 0}^{\infty}i(1-p)^i $$</div>
+</div>
+
+Again, if \\(p=0.5\\) these equations reduce to the values we found before.
+
+<center><img src="/assets/img/the-kings-law/graph.png"></center>
