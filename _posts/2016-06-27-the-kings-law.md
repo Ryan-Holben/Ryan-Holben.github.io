@@ -77,3 +77,19 @@ Let's expand that table of outcomes and probabilities to include the values that
 So we have some functions that tell us the number of boys and girls in various situations.  What we'd really like to know is, on average, are we going to end up with more boys or more girls?
 
 Why?  Well, we can't predict what a single family might do.  But, if we looked at a thousand families, or a million families, we can get a a pretty good idea of what's going on.  To use the technical term, we're looking at the [expected value](https://en.wikipedia.org/wiki/Expected_value) for our random variables \\(B(x)\\) and \\(G(x)\\).
+
+The formula for the expected value for a random variable \\(X\\) is
+
+<div align="center">
+<div>$$E[X]=x_1 p_1 + x_2 p_2 + ... + x_n p_n$$</div>
+</div>
+
+### Expected value for boys
+Let's calculate the number of boys we _expect_ to have per family, on average.  Note that our equation won't have \\(n\\) terms, but rather an infinite number of terms.  We'll deal with that.
+
+<div align="center">
+<div>$$E[B]=b_1 p_1 + b_2 p_2 + b_3 p_3 + ...$$</div>
+</div>
+
+### Expected value for girls
+I saved this calculation for last, both because it's more interesting and because it gives the answer we're looking for!
