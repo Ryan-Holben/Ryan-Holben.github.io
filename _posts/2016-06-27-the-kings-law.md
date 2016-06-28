@@ -5,11 +5,11 @@ date:       2016-06-27
 summary:    We use probability to predict of a law will successfully impact the balance of boys & girls born in a fictitious country.
 categories: math probability
 ---
-<tiny>Problem source: [http://pzl.jp/en/q1](http://pzl.jp/en/q1)</tiny>
+
 # The King's Law
 
 <center>![](http://pzl.jp/en/uimg/1_f3c43373425d441d447efce148b4a193q.jpg?1467094317)</center>
-This is a neat little problem I ran across today.  The scenario goes like so:
+This is a neat little problem I ran across today [here](http://pzl.jp/en/q1).  The scenario goes like so:
 
     Deciding that his kingdom needed more women, the king proclaimed a new law:
 
@@ -19,7 +19,7 @@ This is a neat little problem I ran across today.  The scenario goes like so:
 
     Did his plan work?
 
-**[If you want to skip to the solution, click here](#solution)**. I'm going to take it slow so that we can talk about problem solving methods.
+[If you want to skip to the solution, click here](#solution). I'm going to take it slow so that we can talk about problem solving methods.
 
 ## Problem solving
 My students may or may not realize it, but I'm always secretly trying to teach them problem solving.  Sure, they may be trying to maximize the area of a field using derivatives, or solve some other contrived problem, but I don't really care about that.  What they really should be learning is a way of thinking, an approach that will serve them in all sorts of different settings.
@@ -53,10 +53,10 @@ It seems clear that we need to keep this problem grounded if we are ever going t
 # <a name="solution"></a> Solution
 At its heart, this is a probability question.  We're going to start out by drawing a probability tree.  It's a good way to visualize what's going on, and it might give us hints as to where to go from there.
 
-<center><img src="../assets/img/the-kings-law/probability_tree.jpg"></center>
+<center><img src="/assets/img/the-kings-law/probability_tree.jpg"></center>
 
-I've crudely sketched a probability tree here, with each possible branching having a \\(1/2\\) chance of occurring.
+I've crudely sketched a probability tree here, with each possible branching having a \\(\frac{1}{2}\\) chance of occurring.
 
-What can we do with this?  For one, we can find the probability of any possible outcome by tracing a path from the root of the tree on the left, to a terminal node, or "leaf" on the right.  As we do so, we'll multiply the probabilities that we go through (in this problem, they all happen to be\\(1/2\\).)  Here's a table of outcomes and their probabilities.  (Here \\(E\\) means an event consisting of a single outcome.)
+What can we do with this?  For one, we can find the probability of any possible outcome by tracing a path from the root of the tree on the left, to a terminal node, or "leaf" on the right.  As we do so, we'll multiply the probabilities that we go through (in this problem, they all happen to be \\(\frac{1}{2}\\).)  Here's a table of outcomes and their probabilities.  (Here \\(E\\) means an event consisting of a single outcome.)
 
-<center><img src="../assets/img/the-kings-law/first_table.jpg"></center>
+<center><img src="assets/img/the-kings-law/first_table.jpg"></center>
