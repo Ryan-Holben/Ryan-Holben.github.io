@@ -64,12 +64,9 @@ We're being asked, will the King's plan "raise the ratio of girls"?  Let's be pr
 
 To give us something to work with, let's define some variables which count the number of girls and the number of boys.  These are known as [random variables](https://en.wikipedia.org/wiki/Random_variable).
 
-<!-- <div align="center">
-<div>\\(B(x)=\\) # boys</div>
-<div>\\(G(x)=\\) $ girls</div>
-</div> -->
-$$B(x)=$$
-
-\[G(x)=\]
+<div align="center">
+<div>$$B(x)=$$ # boys</div>
+<div>$$G(x)=$$ $ girls</div>
+</div>
 
 Let's expand that table of outcomes and probabilities to include the values that \\(B(x)\\) and \\(G(x)\\) can take on.  Note that we refer to these values with the symbols \\(b_i\\) and \\(g_i\\).
