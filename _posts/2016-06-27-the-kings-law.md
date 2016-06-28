@@ -5,19 +5,16 @@ date:       2016-06-27
 summary:    We use probability to predict of a law will successfully impact the balance of boys & girls born in a fictitious country.
 categories: math probability
 ---
-
-# The King's Law
-
-<center>![](http://pzl.jp/en/uimg/1_f3c43373425d441d447efce148b4a193q.jpg?1467094317)</center>
+<center><img src="http://pzl.jp/en/uimg/1_f3c43373425d441d447efce148b4a193q.jpg?1467094317"></center>
 This is a neat little problem I ran across today [here](http://pzl.jp/en/q1).  The scenario goes like so:
 
-    Deciding that his kingdom needed more women, the king proclaimed a new law:
+> Deciding that his kingdom needed more women, the king proclaimed a new law:
 
-      "Henceforth, upon the birth of a son a family shall bear children no more!"
+> > "Henceforth, upon the birth of a son a family shall bear children no more!"
 
-    His thought was, of course, that a family could have as many girls as they wanted before having to call it quits, which should raise the ratio of girls.
+> His thought was, of course, that a family could have as many girls as they wanted before having to call it quits, which should raise the ratio of girls.
 
-    Did his plan work?
+> Did his plan work?
 
 [If you want to skip to the solution, click here](#solution). I'm going to take it slow so that we can talk about problem solving methods.
 
@@ -59,4 +56,4 @@ I've crudely sketched a probability tree here, with each possible branching havi
 
 What can we do with this?  For one, we can find the probability of any possible outcome by tracing a path from the root of the tree on the left, to a terminal node, or "leaf" on the right.  As we do so, we'll multiply the probabilities that we go through (in this problem, they all happen to be \\(\frac{1}{2}\\).)  Here's a table of outcomes and their probabilities.  (Here \\(E\\) means an event consisting of a single outcome.)
 
-<center><img src="assets/img/the-kings-law/first_table.jpg"></center>
+<center><img src="/assets/img/the-kings-law/first_table.jpg"></center>
