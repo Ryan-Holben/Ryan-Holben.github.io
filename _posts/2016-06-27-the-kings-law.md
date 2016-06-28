@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Announcing Version 2.0
+title:      The King's Law
 date:       2016-06-27
 summary:    We use probability to predict of a law will successfully impact the balance of boys & girls born in a fictitious country.
 categories: math probability
