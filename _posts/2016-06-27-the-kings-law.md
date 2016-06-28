@@ -70,3 +70,7 @@ To give us something to work with, let's define some variables which count the n
 </div>
 
 Let's expand that table of outcomes and probabilities to include the values that \\(B(x)\\) and \\(G(x)\\) can take on.  Note that we refer to these values with the symbols \\(b_i\\) and \\(g_i\\).
+
+<center><img src="/assets/img/the-kings-law/second_table.jpg"></center>
+
+## Expected value
