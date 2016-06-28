@@ -91,7 +91,7 @@ Let's calculate the number of boys we _expect_ to have per family, on average.  
 <div>$$ E[B]=b_1 p_1 + b_2 p_2 + b_3 p_3 + ... $$</div>
 <div>$$ =1 \cdot \frac{1}{2} + 1\cdot \frac{1}{4} + 1\cdot \frac{1}{8} + ... $$</div>
 <div>$$ =\sum_{i = 0}^{\infty}\frac{1}{2^i} $$</div>
-<div>$$ =\sum_{i = 0}^{\infty}\(\frac{1}{2}\)^i $$</div>
+<div>$$ =\sum_{i = 0}^{\infty}\lparen\frac{1}{2}\rparen^i $$</div>
 </div>
 
 You may have seen this before.  This is a [geometric series](https://en.wikipedia.org/wiki/Geometric_series) with ratio of \\(r=\frac{1}{2}\\), and it has a simple formula.
@@ -106,3 +106,15 @@ Ta-dah!  We got an answer!  On average, we should expect every family to have 1 
 
 ### Expected value for girls
 I saved this calculation for last, both because it's more interesting and because it gives the answer we're looking for!
+
+<div align="center">
+<div>$$ E[G]=g_1 p_1 + g_2 p_2 + g_3 p_3 + ... $$</div>
+<div>$$ =0 \cdot \frac{1}{2} + 1\cdot \frac{1}{4} + 2\cdot \frac{1}{8} + ... $$</div>
+<div>$$ =\sum_{i = 0}^{\infty}\frac{i}{2^{i+1}} $$</div>
+</div>
+
+Now this sum is a bit trickier.  It's probably not one you learned how to compute in your calculus class, although you may know how to test to see if it converges (it does).  So I'll give you the answer here, it turns out that:
+
+<div>
+<div>$$ =\sum_{i = 0}^{\infty}\frac{i}{2^{i+1}} $$</div>
+</div>
