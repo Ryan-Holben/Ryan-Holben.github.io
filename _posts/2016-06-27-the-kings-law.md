@@ -7,7 +7,7 @@ categories: math probability
 ---
 <center><img src="http://pzl.jp/en/uimg/1_f3c43373425d441d447efce148b4a193q.jpg?1467094317"></center>
 
-This is a neat little problem I ran across today [here](http://pzl.jp/en/q1).  The scenario goes like so:
+This is a neat little problem I ran across today [here](http://pzl.jp/en/q1) (Note: the site has an answer, but the explanation doesn't hold up).  The scenario goes like so:
 <hr>
 Deciding that his kingdom needed more women, the king proclaimed a new law:
 
