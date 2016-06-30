@@ -5,13 +5,15 @@ permalink: /about/
 tags: navbar
 ---
 
-<div align="center"># Hello, AirBnB!</div>
+<div align="center"><h0>Hello, AirBnB!</h0></div>
 <hr>
-You are reading this page because your application process asks for a portfolio in file form.  Although the links in this PDF work, you will have the best experience if you simply visit my website (of which this PDF is a reproduction).  Check it out!  [<i class="fa fa-link" aria-hidden="true"></i>http://ryan-holben.github.io](http://ryan-holben.github.io)
+You are reading this page because your application process asks for a portfolio in file form.  Although the links in this PDF work, you will have the best experience if you simply visit my website (of which this PDF is a reproduction).
+
+Check it out!  [<i class="fa fa-link" aria-hidden="true"></i>http://ryan-holben.github.io](http://ryan-holben.github.io)
 <hr>
 
 <img src="/assets/img/portrait.jpg" style="float:right; width:40%; height:40%; padding: 0px 0px 10px 20px;" title="Exploring Oslo, Norway!">
-<center><h1>Hello!</h1></center></p>
+<center><h1>Hello!</h1></center>
 
 My name is Ryan Holben, and I love solving problems.
 
