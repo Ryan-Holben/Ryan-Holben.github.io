@@ -13,7 +13,7 @@ You are reading this page because your application process asks for a portfolio 
 <hr>
 
 <img src="/assets/img/portrait.jpg" style="float:right; width:40%; height:40%; padding: 0px 0px 10px 20px;" title="Exploring Oslo, Norway!">
-<center><h1>Hello!</h1></center>
+<!-- <center><h1>Hello!</h1></center> -->
 
 My name is Ryan Holben, and I love solving problems.
 
