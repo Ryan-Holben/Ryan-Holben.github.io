@@ -7,7 +7,7 @@ tags: navbar
 
 <div align="center"><h1>Hello, AirBnB!</h1></div>
 
-You are reading this page because your application process asks for a portfolio in file form.  Although the links in this PDF work, you will have the best experience if you simply visit my website (of which this PDF is a reproduction).  Check it out!
+<div style="text-align:center">You are reading this page because your application process asks for a portfolio in file form.  Although the links in this PDF work, you will have the best experience if you simply visit my website (of which this PDF is a reproduction).  Check it out!</div>
 
 <div align="center"><h3><a href="http://ryan-holben.github.io"><i class="fa fa-link" aria-hidden="true"></i> ryan-holben.github.io</a></h3></div>
 <hr>
