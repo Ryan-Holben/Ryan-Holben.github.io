@@ -9,7 +9,7 @@ tags: navbar
 
 You are reading this page because your application process asks for a portfolio in file form.  Although the links in this PDF work, you will have the best experience if you simply visit my website (of which this PDF is a reproduction).  Check it out!
 
-<div align="center"><h4>[<i class="fa fa-link" aria-hidden="true"></i>~ryan-holben.github.io](http://ryan-holben.github.io)</h4></div>
+<div align="center"><h4><a href="http://ryan-holben.github.io"><i class="fa fa-link" aria-hidden="true"></i>~ryan-holben.github.io</a></h4></div>
 <hr>
 
 <img src="/assets/img/portrait.jpg" style="float:right; width:40%; height:40%; padding: 0px 0px 10px 20px;" title="Exploring Oslo, Norway!">
@@ -17,7 +17,7 @@ You are reading this page because your application process asks for a portfolio 
 
 My name is Ryan Holben, and I love solving problems.
 
-I am a [math professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx).  I firmly believe in the beauty of mathematics,.
+I am a [math professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx).  I firmly believe in the beauty of mathematics.
 
 I also love [coding](/coding/).  It is both a tool and a medium by which I explore many interests.
 
