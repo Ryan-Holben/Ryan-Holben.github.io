@@ -60,7 +60,7 @@ These steps start with the minimal BasicTeX installation as well as several GUI 
 
     If the Utility asks you if you'd like to update automatically, you'll probably want to say yes.  It may not ask you until the second launch.
 
-1. For a dedicated *TeX editor, I use [TeX Shop](http://pages.uoregon.edu/koch/texshop/obtaining.html).  There are other options out there as well.
+1. For a dedicated *TeX editor, I use [TeX Shop](http://pages.uoregon.edu/koch/texshop/obtaining.html).  There are other options out there as well.  __If you're new to LaTeX, consider using [LyX](https://www.lyx.org/).__  It's a WYSIWYG LaTeX editor, which lets you code as little or as much as you like as you learn the ropes.
 
 ### Compiling your document
 
