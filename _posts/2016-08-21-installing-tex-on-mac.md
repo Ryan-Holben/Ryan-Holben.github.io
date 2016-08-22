@@ -2,18 +2,18 @@
 layout:     post
 title:      Installing (La)TeX on Mac, the Sane Way
 date:       2016-08-21
-summary:    MacTeX is a fat, fat cow, and BasicTeX is painful.  Here's how to get LaTeX up and running with easy dependency installation.
-categories: TeX LaTeX installation
+summary:    MacTeX is a fat, fat cow, and BasicTeX, by contrast, is starved.  Here's how to get LaTeX up and running with automatic dependency installation on MacOS.
+categories: TeX LaTeX installation MacOS
 ---
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/200px-LaTeX_logo.svg.png"></center>
 
-If you're here, you probably know what \\(\LaTeX\\) is.  But just in case you're not quite sure, LaTeX is the industry and academy standard for typesetting technical documents.  It's used in the first sentence in this paragraph to display the logo, and it's probably what was used to write any research paper that you have run across with a formula.  If you're still using Microsoft Word to do formulas, please stop.
+If you're here, you probably know what \\(\LaTeX\\) is.  But just in case you're not quite sure, LaTeX is the industry and academy standard for typesetting technical documents.  It's used in the first sentence in this paragraph to display the logo, and it is probably what was used to write any research paper that you have run across containing a formula.  (If you're still using Microsoft Word to do formulas, please stop.)
 
-That being said, LaTeX (and its parent, TeX) is a relic of times past.  At the time of this article, there are [5,178 packages](https://www.ctan.org/) available for download depending on the functionality you want.  If you're on Windows, you can simply use [MiKTeX](http://miktex.org/), and any dependencies will be automatically downloaded as you need them.  How nice!
+That being said, LaTeX (and its parent, TeX) is a relic of times past.  At the time of this article, there are [5,178 packages](https://www.ctan.org/) available for download depending on the functionality you want.
 
 <hr>
 ## LaTeX installation on MacOS is outdated
-On MacOS, your options are either bloat or tedious pain.  You can:
+If you're on Windows, you can simply use [MiKTeX](http://miktex.org/), and any dependencies will be automatically downloaded as you need them.  How nice! On MacOS, however, your options are either bloat or tedious, tedious pain.  You can:
 
 * Install [MacTeX](https://tug.org/mactex/mactex-download.html) which will include every package, and work.  As impressive as that is, that's roughly 3-4 gigabytes split among over 100k files on your disk.
 
