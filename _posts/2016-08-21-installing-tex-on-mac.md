@@ -13,7 +13,7 @@ That being said, LaTeX (and its parent, TeX) is a relic of times past.  At the t
 
 <hr>
 ## LaTeX installation on MacOS is outdated
-If you're on Windows, you can simply use [MiKTeX](http://miktex.org/), and any dependencies will be automatically downloaded as you need them.  How nice! On MacOS, however, your options are either bloat or tedious, tedious pain.  You can:
+If you're on Windows, you can simply use [MiKTeX](http://miktex.org/), and any dependencies will be automatically downloaded as you need them.  How nice! On MacOS, however, your options are to either accept bloat or tedious, tedious pain.  You can:
 
 * Install [MacTeX](https://tug.org/mactex/mactex-download.html) which will include every package, and work.  As impressive as that is, that's roughly 3-4 gigabytes split among over 100k files on your disk.
 
@@ -36,13 +36,15 @@ These steps start with the minimal BasicTeX installation as well as several GUI 
 
     `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-1. Get [Cask](https://caskroom.github.io/) for Homebrew.  This lets Homebrew install MacOS binaries.
+1. Get [Cask](https://caskroom.github.io/) for Homebrew.  This lets Homebrew install MacOS apps.
 
     `brew tap caskroom/cask`
 
-1. Get [BasicTeX](http://macappstore.org/basictex/)
+1. Get [BasicTeX](http://macappstore.org/basictex/).
 
     `brew cask install basictex`
+
+    You now have a LaTeX installation!  But let's make things a little more user-friendly and modern.
 
 1. Update the TeX Live Package Manager `tlmgr`.  (Note: Anything using `tlmgr` will probably require sudo.)
 
