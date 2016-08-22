@@ -19,11 +19,11 @@ If you're on Windows, you can simply use [MiKTeX](http://miktex.org/), and any d
 
 I'm currently trying to compile my [resume](http://www.github.com/ryan-holben/resume), and I'd rather not let my TeX installation sequester 3% of my SSD to produce a single PDF.  So that leaves us with...
 
-* Install [BasicTeX](https://tug.org/mactex/morepackages.html), which is about 100 megabytes and contains so few packages that you'll be manually installing every package as needed, one at a time.
+* [BasicTeX](https://tug.org/mactex/morepackages.html), which is about 100 megabytes and contains so few packages that you'll be manually installing every package as needed, one at a time.
 
 I've tried this.  You will be appalled by how many packages your little document requires.  Don't do this.
 
-Well, it turns out there's a package we can install that'll take care of dependencies for us.  Why isn't this a built-in feature?  Who knows.
+It turns out there's a package we can install that'll take care of dependencies for us.  Why isn't this a built-in feature, or at least well-publicized?  Who knows.
 
 ## Installation steps
 
@@ -44,7 +44,7 @@ These steps start with the minimal BasicTeX installation as well as several GUI 
 
     `brew cask install basictex`
 
-1. Update the TeX Live Package Manager `tlmgr`.  Anything using `tlmgr` will probably require sudo.
+1. Update the TeX Live Package Manager `tlmgr`.  (Note: Anything using `tlmgr` will probably require sudo.)
 
     `sudo tlmgr update --self`
 
@@ -57,6 +57,9 @@ These steps start with the minimal BasicTeX installation as well as several GUI 
 1. Now we'll leave the command line for a bit.  First, get the [TeX Live Utility](http://amaxwell.github.io/tlutility/) for a GUI package manager.
 
 1. Open TeX Live Utility, and update all packages: ⇧⌘U
+
+    If the Utility asks you if you'd like to update automatically, you'll probably want to say yes.  It may not ask you until the second launch.
+
 1. For a dedicated *TeX editor, I use [TeX Shop](http://pages.uoregon.edu/koch/texshop/obtaining.html).  There are other options out there as well.
 
 ### Compiling your document
@@ -65,8 +68,10 @@ These steps start with the minimal BasicTeX installation as well as several GUI 
 
     `sudo texliveonfly -c xelatex Resume.tex`
 
-    The `-c xelatex` was required because my document was a XeLaTeX document.  Your document probably won't need this.
+    The `-c xelatex` was required because my document was a XeLaTeX document.  Most documents won't need this.
 
-1. Uh oh, although the utility fetched a bunch of relevant packages, it still didn't work!  Isn't TeX wonderful?  If this happens to you, carefully look at your error output.  Mine complained about missing fonts.  However, a google search of the first missing font's name led me to the `lm-math` package.  A quick call to `sudo tlmgr install lm-math`, and everything worked beautifully.
+1. Uh oh, although the utility fetched a bunch of relevant packages, it still didn't work!  Isn't this fun?  If this happens to you, carefully look at your error output.  Mine complained about missing fonts.  However, a google search of the first missing font's name led me to the `lm-math` package.  A quick call to `sudo tlmgr install lm-math`, and everything worked beautifully.
 
-1. Now that I've gotten all my packages, I can do all my editing and compiling in TeX Shop, without the command line.  In the future, I may need to go back to the command line now and then.
+1. Now that I've gotten all my packages, I can do all my editing and compiling in TeX Shop, without the command line!
+
+1. In the future, I may occasionally need to go back to the command line to run `sudo texliveonfly somedoc.tex` to grab new packages.
