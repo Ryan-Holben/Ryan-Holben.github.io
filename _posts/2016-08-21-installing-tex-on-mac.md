@@ -66,7 +66,7 @@ These steps start with the minimal BasicTeX installation as well as several GUI 
 
 ### Compiling your document
 
-1. The first time you try to compile a document, your installation will probably have to download some packages.  For me, I ran the following command in the folder containing `Resume.tex`:
+1. The first time you try to compile a document, your installation will probably have to download some packages.  This is where we use `texliveonfly`.  For me, I ran the following command in the folder containing `Resume.tex`:
 
     `sudo texliveonfly -c xelatex Resume.tex`
 
