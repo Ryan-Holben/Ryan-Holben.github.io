@@ -15,18 +15,20 @@ I enjoy coding as a creative outlet.  It allows me to nurture a wide variety of 
 
 Technologies I use include:
 
-* Languages: Python, C/C++, Java, Processing, Lua, Javascript, HTML, ...
-* Python modules: Numpy, Pandas, Matplotlib, Seaborn, Graph-Tool, scikit-learn, Beautiful Soup, Flask, PRAW, ...
+* Languages: Python, C/C++, Processing, Lua, Javascript, HTML/CSS, ...
+* Python modules: Numpy, Pandas, Matplotlib, Seaborn, Graph-Tool, Beautiful Soup, Flask, Selenium, ...
 * Other technologies: SQL, MongoDB, Amazon Web Services, Git, Mathematica, \\(\LaTeX\\), ...
 
 ## Projects
 Here is a selection of projects that I have worked on, with [GitHub](https://github.com/Ryan-Holben/) links where available.
 
-* [Prettify](https://github.com/Ryan-Holben/prettify): [<img src="/assets/img/prettify.png" style="float:right; width: 40%; height: 40%">](https://github.com/Ryan-Holben/prettify) A project which converted raw text notes for [Dr. Richard Pattis' ICS-33 class](https://www.ics.uci.edu/~pattis/ICS-33/) at UC Irvine into a more readable format.  The primary challenge involved was differentiating code and diagrams from natural language.
+* [Structure](https://github.com/Ryan-Holben/Structure): ![<img src="/assets/img/structure.png" style="float:left; width: 35%; height: 35%">] A profiler for Python scripts with a focus on visualizing structure.  A low-level trace hook is run whenever a function is called, allowing real-time logging of the Python call stack.  This in turn is then vizualized through a directed graph.  Timing and other data is also saved for further analysis.
 
-* [OKC](https://github.com/Ryan-Holben/OKC): This project's lofty goal is to detect fake user profiles on the website OKCupid.  It is a work in progress, and succeeds RedditDB in many ways.  It has 3 primary components: scraping, maintaining a remote database using AWS, and analysis in user-friendly Jupyter notebooks.
+* [Prettify](https://github.com/Ryan-Holben/prettify): [<img src="/assets/img/prettify.png" style="float:right; width: 40%; height: 40%">](https://github.com/Ryan-Holben/prettify) Converted the raw text notes for [Dr. Richard Pattis' ICS-33 class](https://www.ics.uci.edu/~pattis/ICS-33/) at UC Irvine into a more readable format.  The primary challenge involved was differentiating code and diagrams from natural language.
 
-* [Game Theory Problem Generator](https://github.com/Ryan-Holben/game-theory-IESDS-generator): A script I wrote to produce problems & step-by-step solutions for the IESDS class of problems in game theory, output in \\(\LaTeX\\), for usage in a course that I teach.
+* [OKC](https://github.com/Ryan-Holben/OKC): Analyzes OKCupid users.  It has 3 primary components: scraping, maintaining a remote database using AWS, and analysis in user-friendly Jupyter notebooks.  In the future I hope to use machine learning methods such as K-means clustering to identify fraudulent user profiles.
+
+* [Game Theory Problem Generator](https://github.com/Ryan-Holben/game-theory-IESDS-generator): Produces problems & step-by-step solutions for the IESDS class of problems in game theory, output in \\(\LaTeX\\), for the students in my finite mathematics course.
 
 * <a name="Venn"></a>[Venn](#Venn): Code used to verify solutions to a combinatorial problem about the number of regions \\(\mathbb{R}^n\\) can be divided into using \\(k-\\)many \\(n-\\)spheres.
 
