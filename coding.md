@@ -5,13 +5,12 @@ permalink: /coding/
 tags: navbar
 ---
 [<img src="/assets/img/post_slope.png" style="float:right; width: 45%; height: 45%">](/assets/img/post_slope.png)
-I enjoy coding as a creative outlet.  It allows me to nurture a wide variety of interests in the applied spectrum.  I have most recently been using Python in the following pursuits:
+I enjoy coding as a creative outlet.  It allows me to nurture a wide variety of interests in the applied spectrum.  I have most recently been using coding in the following pursuits:
 
-* A means to supplement mathematical research
-* Machine learning
 * Data scraping & analysis
+* A means to supplement mathematical research
 * Physical simulations & cellular automata
-* Programming utilities
+* Programming useful utilities & solutions to problems
 
 Technologies I use include:
 
