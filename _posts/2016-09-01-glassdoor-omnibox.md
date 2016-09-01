@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Add Glassdoor company search to Chrome's address bar
+title:      Add Glassdoor's company search to Chrome's address bar
 date:       2016-09-01
 summary:    I find myself looking up companies through Glassdoor extremely often.  I added a tab-complete search functionality to Chrome's search bar to speed up my workflow.  Here's how to do it!
-categories: Chrome omnibox search glassdoor jobs
+categories: Chrome omnibox search Glassdoor jobs
 ---
 
 
