@@ -22,7 +22,7 @@ Technologies I use include:
 ## Projects
 Here is a selection of projects that I have worked on, with [GitHub](https://github.com/Ryan-Holben/) links where available.
 
-* [Structure](https://github.com/Ryan-Holben/Structure): ![<img src="/assets/img/structure.png" style="float:left; width: 35%; height: 35%">] A profiler for Python scripts with a focus on visualizing structure.  A low-level trace hook is run whenever a function is called, allowing real-time logging of the Python call stack.  This in turn is then vizualized through a directed graph.  Timing and other data is also saved for further analysis.
+* [Structure](https://github.com/Ryan-Holben/Structure): <img src="/assets/img/structure.png" style="float:left; width: 35%; height: 35%"> A profiler for Python scripts with a focus on visualizing structure.  A low-level trace hook is run whenever a function is called, allowing real-time logging of the Python call stack.  This in turn is then vizualized through a directed graph.  Timing and other data is also saved for further analysis.
 
 * [Prettify](https://github.com/Ryan-Holben/prettify): [<img src="/assets/img/prettify.png" style="float:right; width: 40%; height: 40%">](https://github.com/Ryan-Holben/prettify) Converted the raw text notes for [Dr. Richard Pattis' ICS-33 class](https://www.ics.uci.edu/~pattis/ICS-33/) at UC Irvine into a more readable format.  The primary challenge involved was differentiating code and diagrams from natural language.
 
