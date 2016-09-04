@@ -24,7 +24,7 @@ Scroll to the bottom.  In each field, respectively, type a name for your search 
 
 <center><img src="/assets/img/glassdoor-search/glassdoor1.png"></center>
 
-And there we go!  Try it out.  Here I typed `glassdoor.com` followed by a `tab`, and then typed `Facebook`.
+That's all there is to it!  Try it out.  Here I typed `glassdoor.com` followed by a `tab`, and then typed `Facebook`.
 
 <center><img src="/assets/img/glassdoor-search/glassdoor2.png"></center>
 
