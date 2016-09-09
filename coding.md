@@ -20,6 +20,7 @@ Technologies I use include:
 
 ## Projects
 Here is a selection of projects that I have worked on, with [GitHub](https://github.com/Ryan-Holben/) links where available.
+
 * [AlPACA](https://github.com/Synival/alpaca) (All-Purpose Asynchronous Cryptography Architecture): Lightweight library that provides generic asynchronous data transfer using secure keys. Includes ability to create RESTful services, designed for use in any language both client-side and server-side.
 * [Structure](https://github.com/Ryan-Holben/Structure): [<img src="/assets/img/structure.png" style="float:right; width: 35%; height: 35%">](/assets/img/structure.png) A profiler for Python scripts with a focus on visualizing structure.  A low-level trace hook is run whenever a function is called, allowing real-time logging of the Python call stack.  This in turn is then vizualized through a directed graph.  Timing and other data is also saved for further analysis.
 
