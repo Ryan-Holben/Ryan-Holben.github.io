@@ -91,7 +91,7 @@ Let's calculate the number of boys we _expect_ to have per family, on average.  
 <div align="center">
 <div>$$ E[B]=b_1 p_1 + b_2 p_2 + b_3 p_3 + ... $$</div>
 <div>$$ =1 \cdot \frac{1}{2} + 1\cdot \frac{1}{4} + 1\cdot \frac{1}{8} + ... $$</div>
-<div>$$ =\sum_{i = 0}^{\infty}\frac{1}{2^i} =\sum_{i = 0}^{\infty}\left(\frac{1}{2}\right)^i  $$</div>
+<div>$$ =\sum_{i = 1}^{\infty}\frac{1}{2^i} =\sum_{i = 1}^{\infty}\left(\frac{1}{2}\right)^i  $$</div>
 </div>
 
 You may have seen this before.  This is a [geometric series](https://en.wikipedia.org/wiki/Geometric_series) with ratio of \\(r=\frac{1}{2}\\), and it has a simple formula.
