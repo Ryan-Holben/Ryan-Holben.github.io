@@ -44,7 +44,13 @@ These steps start with the minimal BasicTeX installation as well as several GUI 
 
     `brew cask install basictex`
 
-    You now have a LaTeX installation!  But let's make things a little more user-friendly and modern.
+    You now have a LaTeX installation!
+
+    Delightfully, however, the installer doesn't tell your system where it installed things.  Let's fix that.  In the command line, type the following (Note that your path might not be the same, for example, if you have different hardware.  Also, if this step fails, you can open up `~/.bash_profile` and add the path manually.):
+
+    `echo "export PATH="/usr/local/texlive/2016basic/bin/x86_64-darwin:$PATH" >> ~/.bash_profile`
+
+    Now let's make things a little more user-friendly and modern.
 
 1. Update the TeX Live Package Manager `tlmgr`.  (Note: Anything using `tlmgr` will probably require sudo.)
 
