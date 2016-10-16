@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 tags: navbar
 ---
-I am currently a [Visiting Assistant Professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx) of mathematics at [Furman University](http://www.furman.edu), a small liberal arts college in South Carolina.  Prior to Furman, I lectured at [UC Irvine](http://math.uci.edu).
+I recently completed a year as a [Visiting Assistant Professor](http://www.furman.edu/academics/mathematics/meet-our-faculty/Pages/Ryan-Holben.aspx) of mathematics at [Furman University](http://www.furman.edu), a small liberal arts college in South Carolina.  Prior to Furman, I lectured at [UC Irvine](http://math.uci.edu).
 
 My goal in the classroom is to guide students to an understanding which comes from within themselves.  I believe that by working through the logic of a problem in a way that makes sense to one's self, a material will be learned and retained on a deep level.  Furthermore, this type of learning has the potential of making mathematics friendly, rather than intimidating, a result that I have seen countless times in my students to great success.
 
